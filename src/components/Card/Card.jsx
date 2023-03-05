@@ -1,11 +1,13 @@
 import css from "./Card.module.css";
+import logo from "../../images/Logo.png";
+import topImg from "../../images/picture2.png";
 
 export default function Card({ user, onChangeFollow }) {
   return (
     <li className={css.card_wrapper}>
-      <img src="/images/logo.png" alt="Logo" className={css.logo_img} />
+      <img src={logo} alt="Logo" className={css.logo_img} />
       <div className={css.top_thumb}>
-        <img src="/images/picture2.png" alt="Top" className={css.top_img} />
+        <img src={topImg} alt="Top" className={css.top_img} />
       </div>
       <div className={css.central_thumb}>
         <div className={css.central_thumb__line}></div>
