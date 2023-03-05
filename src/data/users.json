@@ -38,5 +38,13 @@
         "followers": 100900,
         "avatar": "https://cdn-icons-png.flaticon.com/512/805/805370.png",
         "follow": false
-        }
-    ]
+    },
+    {
+        "id": 6,
+        "user": "Mr. Brooke Medhurst",
+        "tweets": 888,
+        "followers": 104500,
+        "avatar": "https://cdn-icons-png.flaticon.com/512/924/924874.png",
+        "follow": false
+    }
+]
