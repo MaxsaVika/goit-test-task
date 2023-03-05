@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "user": "Noel Treutel",
+        "tweets": 777,
+        "followers": 100500,
+        "avatar": "https://cdn-icons-png.flaticon.com/512/7504/7504950.png",
+        "follow": false
+    },
+    {
+        "id": 2,
+        "user": "Lydia Hirthe",
+        "tweets": 111,
+        "followers": 100600,
+        "avatar": "https://cdn-icons-png.flaticon.com/512/145/145899.png",
+        "follow": false
+    },
+    {
+        "id": 3,
+        "user": "Sonya Fisher",
+        "tweets": 222,
+        "followers": 100700,
+        "avatar": "https://cdn-icons-png.flaticon.com/512/9734/9734922.png",
+        "follow": false
+    },
+    {
+        "id": 4,
+        "user": "Dexter Paucek",
+        "tweets": 333,
+        "followers": 100800,
+        "avatar": "https://cdn-icons-png.flaticon.com/512/8360/8360462.png",
+        "follow": false
+        },
+    {
+        "id": 5,
+        "user": "Marion Mueller",
+        "tweets": 444,
+        "followers": 100900,
+        "avatar": "https://cdn-icons-png.flaticon.com/512/805/805370.png",
+        "follow": false
+        }
+    ]

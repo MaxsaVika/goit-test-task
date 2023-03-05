@@ -1,0 +1,118 @@
+.card_wrapper{
+    width: 380px;
+    height: 460px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px auto;
+
+    background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+    box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+}
+
+.logo_img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 76px;
+}
+
+.top_thumb{
+    padding: 28px 36px 18px;
+}
+
+.central_thumb{
+    position: absolute;
+    top: 214px;
+    display: flex;
+    align-items: center;
+}
+
+.central_thumb__line{
+    width: 380px;
+    height: 8px;
+
+    background: #EBD8FF;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06), inset 0px -1.71846px 3.43693px #AE7BE3, inset 0px 3.43693px 2.5777px #FBF8FF;
+}
+
+.central_thumb__round{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+
+    box-sizing: border-box;  
+    border: 8px solid #EBD8FF;   
+
+    border-radius: 50%;
+}
+
+.central_thumb__round::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+
+    box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06), inset 0px -2.19582px 4.39163px #AE7BE3, inset 0px 4.39163px 3.29372px #FBF8FF; 
+    border-radius: 100%;
+}
+
+.central_thumb__img{
+    background: #5736a3;
+    border-radius: 50%;
+}
+
+.bottom_thumb{
+    padding-bottom: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.bottom_thumb__name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #EBD8FF;
+    text-transform: uppercase;
+    text-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+}
+
+.bottom_thumb__text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #EBD8FF;
+}
+
+.bottom_thumb__btn{
+    padding: 14px 28px;
+    width: 196px;
+    height: 50px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #373737;
+
+    background: #EBD8FF;
+    border: none;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+    border-radius: 10.3108px;
+}
+
+.bottom_thumb__btn_add{
+    background: #5CD3A8;
+}
