@@ -67,6 +67,8 @@
 }
 
 .central_thumb__img{
+    width: 64px;
+    height: 64px;
     background: #5736a3;
     border-radius: 50%;
 }

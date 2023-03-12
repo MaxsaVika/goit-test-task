@@ -4,10 +4,9 @@ import Card from "../Card/Card";
 import css from "./CardList.module.css";
 
 export const CardList = () => {
-  const [cards, setCards] = useState(() => {
-    const savedData = localStorage.getItem("cards");
-    return savedData ? JSON.parse(savedData) : usersData;
-  });
+  const [cards, setCards] = useState(
+    () => JSON.parse(localStorage.getItem("cards")) ?? usersData
+  );
 
   useEffect(() => {
     localStorage.setItem("cards", JSON.stringify(cards));
@@ -19,12 +18,11 @@ export const CardList = () => {
         if (id === card.id) {
           return {
             ...card,
-            follow: !card.follow,
+            follow: card.follow ? false : true,
             followers: !card.follow ? card.followers + 1 : card.followers - 1,
           };
-        } else {
-          return card;
         }
+        return card;
       })
     );
 
